@@ -1,6 +1,6 @@
 {
   "name": "yed-timer-example",
-  "homepage": ".",
+  "homepage": "http://yasiinn.github.io/yed-timer",
   "version": "0.0.0",
   "private": true,
   "scripts": {

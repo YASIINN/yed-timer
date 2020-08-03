@@ -164,3 +164,5 @@ const YedTimer = (props: PropTypes) => {
   )
 }
 export default YedTimer
+//
+// cd example && npm install && npm run build

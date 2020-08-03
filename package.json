@@ -1,6 +1,6 @@
 {
   "name": "yed-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Counts time",
   "author": "YASIINN",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && npm install && npm run build",
+    "predeploy": "",
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
