@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import YedTimer from './index'
 
-describe('ExampleComponent', () => {
+describe('YedTimer', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(YedTimer).toBeTruthy()
   })
 })

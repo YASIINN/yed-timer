@@ -1,6 +1,6 @@
 {
   "name": "yed-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Counts time",
   "author": "YASIINN",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "keywords": ["Javascript","yed-timer","React-timer","timer countdown","yefemdlklc","react-yed-timer"],
   "engines": {
     "node": ">=10"
   },

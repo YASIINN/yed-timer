@@ -1,9 +1,84 @@
-/* add css module styles here (optional) */
+.yedtimerwrapper{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+}
+.yedinfowrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.yedtimerwrapper:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.yedtimesuptext{
+  color: #f5222d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+.yedline{
+  width: 90%;
+  border: 1px solid #d9d9d9;
+
+}
+.yedtimer{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.yedtimeinfo{
+  font-size: 16px;
+}
+.yedtimersecond{
+  margin-left: 5px;
+}
+.yedtimerbuttonwrapper{
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.yedtimerbutton{
+  padding: 12px;
+  white-space: nowrap;
+  font-weight: 400;
   text-align: center;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  color: #fff;
+}
+.yedtimerbutton +.yedtimerbutton {
+  margin-left: 5px;
+}
+.yedbutonSucces{
+  background: #52c41a;
+}
+.yedbuttonDanger{
+  background: #f5222d;
+}
+.yedbuttonWarning{
+  background: #faad14 ;
 }

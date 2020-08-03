@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'yed-timer'
+import  YedTimer from 'yed-timer'
 import 'yed-timer/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <YedTimer minute={40} second={15} />
 }
 
 export default App
