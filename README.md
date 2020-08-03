@@ -35,7 +35,6 @@ export default App
   minuteText | Minute text | Dakika | false | String
   secondText | Second text | Saniye | false | String
   timeUpText | Text to show when the timer stops| Zaman Doldu. | false | String
-  timeUpColor | Time Up Text Color | #f5222d | false | String
   timerWidth | Timer Width | 100% | false | Number
   timerHeight | Timer Height | auto | false | Number
   resetText | Timer Reset Text | Sıfırla | false | String
