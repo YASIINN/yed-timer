@@ -8,6 +8,10 @@
 [Demo](https://yasiinn.github.io/yed-timer-demo/)
 
 
+
+## Demo
+[Demo](https://yasiinn.github.io/yed-timer-demo/)
+
 ## Install
 
 ```bash
